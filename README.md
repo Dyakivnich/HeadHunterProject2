@@ -6,31 +6,31 @@
 
 ## Знакомство с данными
 
-###VACANCIES
+### VACANCIES
 
 Таблица хранит в себе данные по вакансиям и содержит следующие столбцы:
 
 ![image](https://github.com/Dyakivnich/HeadHunterProject2/assets/150271688/da657de0-0131-4906-aaaa-93961fb2f6c5)
 
-###AREAS
+### AREAS
 
 Таблица-справочник, которая хранит код региона и его название.
 
 ![image](https://github.com/Dyakivnich/HeadHunterProject2/assets/150271688/185a47e6-7cf8-4dae-bd9a-28cc8c7c0082)
 
-###EMPLOYERS
+### EMPLOYERS
 
 Таблица-справочник со списком работодателей.
 
 ![image](https://github.com/Dyakivnich/HeadHunterProject2/assets/150271688/42337c0f-79c9-432c-aa62-e85128d3c11d)
 
-###INDUSTRIES
+### INDUSTRIES
 
 Таблица-справочник вариантов сфер деятельности работодателей.
 
 ![image](https://github.com/Dyakivnich/HeadHunterProject2/assets/150271688/13c3fc0b-06e7-434f-ba68-fe5b96d0d599)
 
-###EMPLOYERS_INDUSTRIES
+### EMPLOYERS_INDUSTRIES
 
 Дополнительная таблица, которая существует для организации связи между работодателями и сферами их деятельности.
 Эта таблица нужна нам, поскольку у одного работодателя может быть несколько сфер деятельности (или работодатели могут вовсе не указать их). Для удобства анализа необходимо хранить запись по каждой сфере каждого работодателя в отдельной строке таблицы.
